@@ -1,18 +1,18 @@
-#ifndef LIB_H
-#define LIB_H
+#ifndef HR4C_LIB_H
+#define HR4C_LIB_H
 
-int chrRepeat(char *out, char chr, int n);
+int chrRepeat(char *out, char chr, unsigned int n);
 
-int uintOfStr(unsigned int *out, char *str);
+int strToUint(unsigned int *out, char *str);
 
 int strInspect(char *str);
 
 int strStrip(char *out, char *str);
 
-int printAsParagraph(int length, char *outer, char inner, char *title);
+int printUntitled(unsigned int length, char *outer, char inner);
 
-int printTitled(int length, char *outer, char inner, char *title);
+int printTitled(unsigned int length, char *outer, char inner, char *title);
 
-int printUntitled(int length, char *outer, char inner);
+int printAsParagraph(unsigned int length, char *outer, char inner, char *title);
 
-#endif
+#endif // HR4C_LIB_H
