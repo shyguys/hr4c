@@ -5,7 +5,12 @@ Prints horizontal rules. C port of https://github.com/shyguys/hr.
 
 == Setup
 
-tbc
+Compile the source code to a directory in PATH, e.g.:
+
+[source, shell]
+----
+gcc $(pwd)/src/main.c $(pwd)/src/lib.c -o ~/bin/hr4c
+----
 
 == Usage
 
