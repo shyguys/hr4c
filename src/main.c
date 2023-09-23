@@ -61,6 +61,7 @@ int main(int argc, char *argv[])
     }
   }
   char *title = argv[optind];
+
   int ok = 1;
   if (asParagraph)
   {
